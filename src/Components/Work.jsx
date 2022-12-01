@@ -31,18 +31,23 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Covid-19 verileri üzerinde veri manipülasyonunun araştırılması",
+    title: "Junior Software Developer",
     description:
-      "Twint kullanarak çekilen tweetleri BERKTurk ile analiz ettim. Bu sonuçları web sitesine blog yazısı ve grafik olarak yansıttım.",
-    
+      "Big-A Yazılım & Veri Analiz firmasında doğal dil işleme ile çalışırken firmanın diğer ürünlerinin testlerini yaptım ve ürünler hakkında hem tasarım olarak hem de kullanıcı deneyimi ile ilgili geri bildirimlerde bulundum.",
+    date: "08.2021- 02.2022",
   },
- 
+  {
+    title: "Bilgi İşlem Stajeri",
+    description:
+      "Erzurum Valiliğinde farklı departmanlardaki personellerin sorunların çözülmesinde ve ihtiyaçlarının giderilmesinde yardımcı oldum.",
+    date: "07.2021- 07.2021",
+  },
 ];
 
-const Portfolio = () => {
+const Work = () => {
   return (
-    <section className="light" id="portfolio">
-      <h2>Projeler</h2>
+    <section className="light" id="work">
+      <h2>İş Deneyimi</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -54,10 +59,12 @@ const Portfolio = () => {
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
+              <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               <p className="small">{project.description}</p>
+              <i>
+                {" "}
+                <p className="small">{project.date}</p>{" "}
+              </i>
             </div>
           ))}
         </div>
@@ -66,4 +73,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Work;

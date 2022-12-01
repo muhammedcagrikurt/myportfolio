@@ -24,19 +24,18 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Bilgisayar mühendisliği 4.sınıf öğrencisiyim. Kendimi geliştirmek adına başka alanlarla ilgilendim ve kariyerimi frontend alanında ilerletmeye karar verdim. Bunun için de internetteki kaynakları kullanarak kendimi geliştiriyorum. İngilizcem için ise elimden geldikçe İngilizce içerik tüketmeye çalışıyorum. Fırsat buldukça da internetten dijital çizim ve ney öğreniyorum.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "JavaScript",
+  "React.js",
+  "HTML/CSS",
+  "Figma",
+  "Git",
 ];
 
 /**

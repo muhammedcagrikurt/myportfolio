@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/work.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -46,13 +46,19 @@ const projectList = [
 
 const Work = () => {
   return (
-    <section className="light" id="work">
-      <h2>İş Deneyimi</h2>
+    <section className="dark" id="work">
+      <h2 style={{paddingTop: "8rem"}}>İş Deneyimi</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
+            className="background"
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>

@@ -32,7 +32,7 @@ const siteProps = {
   linkedIn: "muhammedcagrikurt/",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#4E4E4E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {

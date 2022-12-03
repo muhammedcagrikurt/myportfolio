@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/project.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -34,20 +34,21 @@ const projectList = [
     title: "Covid-19 verileri üzerinde veri manipülasyonunun araştırılması",
     description:
       "Twint kullanarak çekilen tweetleri BERKTurk ile analiz ettim. Bu sonuçları web sitesine blog yazısı ve grafik olarak yansıttım.",
-    
+    url: "https://github.com/Covid19Analysis/WebSite",
   },
  
 ];
 
 const Portfolio = () => {
   return (
-    <section className="light" id="portfolio">
-      <h2>Projeler</h2>
+    <section className="dark" id="portfolio">
+      <h2 style={{paddingTop: "8rem"}}>Projeler</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
+            className="background"
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover"}}
             alt={imageAltText}
           />
         </div>

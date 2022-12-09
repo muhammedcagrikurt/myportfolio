@@ -18,13 +18,13 @@ import React from "react";
  */
 import image from "../images/black.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "stones";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Bilgisayar mühendisliği 4.sınıf öğrencisiyim. Kendimi geliştirmek adına başka alanlarla ilgilendim ve kariyerimi frontend alanında ilerletmeye karar verdim. Bunun için de internetteki kaynakları kullanarak kendimi geliştiriyorum. İngilizcem için ise elimden geldikçe İngilizce içerik tüketmeye çalışıyorum. Fırsat buldukça da internetten dijital çizim ve ney öğreniyorum.";
+  "Bilgisayar mühendisliği 4.sınıf öğrencisiyim. Kendimi geliştirmek adına birçok alanla ilgilendim ve kariyerimi frontend alanında ilerletmeye karar verdim. Bunun için de internetteki kaynakları kullanarak kendimi geliştiriyorum. İngilizcem için ise elimden geldikçe İngilizce içerik tüketmeye çalışıyorum.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -38,7 +38,7 @@ const skillsList = ["JavaScript", "React.js", "HTML/CSS", "Figma", "Git"];
  * about you on a professional level.
  */
 const detailOrQuote =
-  "";
+  "İnternetten dijital çizim yapmayı🎨, ney üflemeyi öğreniyorum🎼ve merak ettiğim konuları araştırıyorum.👨‍💻";
 
 const About = () => {
   return (
@@ -70,7 +70,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0"}}>{detailOrQuote}</p>
       </div>
     </section>
   );

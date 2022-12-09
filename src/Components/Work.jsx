@@ -21,7 +21,7 @@ import React from "react";
  */
 import image from "../images/work.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "hand and laptop";
 
 /**
  * Project list
@@ -47,7 +47,7 @@ const projectList = [
 const Work = () => {
   return (
     <section className="dark" id="work">
-      <h2 style={{paddingTop: "8rem"}}>İş Deneyimi</h2>
+      <h2 style={{ paddingTop: "8rem" }}>İş Deneyimi</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img

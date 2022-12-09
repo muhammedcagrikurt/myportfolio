@@ -21,8 +21,9 @@ import PropTypes from "prop-types";
  * freely use on your site.
  */
 import image from "../images/notebook.jpg";
-
-const imageAltText = "woman holding laptop standing by server room with glass wall";
+const homeDescription =
+  "Merhabalar🤚 Ben Çağrı bu benim portfolio web sitem. Bu web sitesini codespace'in portfolio template'i üzerinden oluşturdum ve burada hem react'tı uygulayarak öğrenirken hem de codespace'i deniyorum. Kendimi geliştirdikçe burayı da günceleyeceğim.";
+const imageAltText = "Laptop";
 
 const Home = ({ name, title }) => {
   return (
@@ -31,6 +32,15 @@ const Home = ({ name, title }) => {
       <div style={{ position: "absolute", top: "30%", left: "2rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
+        <p
+          style={{
+            textAlign: "left",
+            padding: "2rem 60% 0 0 ",
+            animation: "2s ease-out 0s 1 slideInLeft",
+          }}
+        >
+          <i>{homeDescription}</i>
+        </p>
       </div>
       <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />

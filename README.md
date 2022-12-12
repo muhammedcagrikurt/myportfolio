@@ -1,1 +1,1 @@
-
+ Merhabalar🤚 Ben Çağrı bu benim portfolio web sitem için codespace'in portfolio template'tini kullanarak oluşturduğum repository. Burada hem react'tı uygulayarak öğrenirken hem de codespace'i deniyorum. Kendimi geliştirdikçe burayı da günceleyeceğim.
